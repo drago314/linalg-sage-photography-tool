@@ -8,7 +8,7 @@ import pyperclip as pc
 options = "--psm 6"
 
 # find most recently edited file on the desktop
-folder_path = r"/Users/avrickaltmann/Desktop/"
+folder_path = r"/Users/avrickaltmann/Documents/Screenshots/"
 file_type = r"*png"
 files = glob.glob(folder_path + file_type)
 filename = max(files, key=os.path.getctime)
